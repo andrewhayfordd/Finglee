@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.open{
+    display: flex;
+}
+.container > .login_side{
+    position: fixed;
+    width: 550px;
+    background-color: rgb(140, 0, 255);
+    height: 100%;
+}
+.container > .login_side .side{
+    margin-top: 120px;
+}
+.container > .login_side .side .head{
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    margin: 40px;
+}
+.container > .login_side .side .login{
+    margin-left: 110px;
+}
+.container > .login_side .side .login form input{
+    padding: 10px;
+    height: 18px;
+    width: 290px;
+    margin-top: 20px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+}
+.container > .login_side .side .login form button{
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 20px;
+    font-size: 19px;
+    background-color: rgba(76, 2, 136, 0.795);
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
